@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Futura Light, sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   background-color: #f8f8f8;
   color: #333;
 }
@@ -8,7 +8,7 @@ body {
 header {
   text-align: center;
   padding: 4rem 2rem;
-  font-family: 'Futura Light', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   background-color: #eaeaea;
 }
 
@@ -44,7 +44,7 @@ main {
 }
 
 main h2 {
-  font-family: 'Futura Light', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
   margin-bottom: 2rem;
 }
 
