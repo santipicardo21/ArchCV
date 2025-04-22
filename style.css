@@ -1,7 +1,7 @@
 body { 
   margin: 0;
   font-family: 'Didact Gothic', sans-serif;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
   color: #333;
 }
 
@@ -9,7 +9,7 @@ header {
   text-align: center;
   padding: 4rem 2rem;
   font-family: 'Didact Gothic', sans-serif;
-  background-color: #eaeaea;
+  background-color: #f8f8f8;
 }
 
 nav {
@@ -17,7 +17,7 @@ nav {
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
-  background-color: #ddd;
+  background-color: #ffffff;
   padding: 1rem;
 }
 
@@ -64,7 +64,7 @@ main h2 {
   font-size: 1.3rem;
   font-weight: bold;
   padding: 1rem 2rem;
-  background-color: #e0e0e0;
+  background-color: #f8f8f8;
   color: #333;
   border: none;
   border-radius: 12px;
