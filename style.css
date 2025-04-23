@@ -334,34 +334,43 @@ footer {
 }
 /* ————— Sección Habilidades y Certificaciones ————— */
 #habilidades {
+  /* 1) fuerzo que este flex‐item quede pegado a la izquierda */
+  align-self: flex-start;
+
+  /* 2) sigo usando flex‐column para ordenar sus hijos */
   display: flex;
   flex-direction: column;
-  align-items: flex-start;    /* todo pegado a izquierda */
-  padding: 4rem 8rem;         /* mismos márgenes que Educación */
+  align-items: flex-start;
+
+  /* 3) mismos padding que en Educación */
+  padding: 4rem 8rem;
   max-width: 1000px;
-  margin: auto;
+  width: 100%;
+
+  /* 4) tipografía, colores, fondo */
   font-family: 'Didact Gothic', sans-serif;
   color: #333;
   background-color: #fff;
+  margin: 0;  /* nada de auto aquí */
 }
 
-/* Título principal igual que en Educación */
+/* Título principal */
 #habilidades h2 {
-  font-size: 7rem;
-  margin: 2 0 1.5rem 3;
+  font-size: 3rem;             /* 7rem era demasiado grande para móvil */
+  margin: 0 0 2rem 0;          /* 0 arriba, 2rem abajo */
   text-align: left;
   color: #333;
 }
 
-/* Subtítulos igual que “Estudios” */
+/* Subtítulos */
 #habilidades h3 {
-  font-size: 4rem;
-  margin: 1rem 0 1.5rem 1;
+  font-size: 2rem;
+  margin: 1rem 0 1rem 0;       /* 1rem arriba y abajo */
   text-align: left;
-  color: #767676;
+  color: #444;
 }
 
-/* Lista de ítems */
+/* El listado */
 .habilidades-lista {
   display: flex;
   flex-direction: column;
@@ -369,19 +378,15 @@ footer {
   width: 100%;
 }
 
-/* Cada ítem con acento morado a la izquierda */
+/* Cada ítem con acento morado */
 .habilidad-item p {
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 1.6;
   padding-left: 1rem;
   border-left: 4px solid #a259ff;
 }
 
-/* Margin-bottom extra al final para separar del footer */
-#habilidades .habilidades-lista:last-of-type {
-  margin-bottom: 3rem;
-}
 
 
 
