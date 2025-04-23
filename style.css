@@ -87,3 +87,33 @@ footer {
   background-color: #eaeaea;
   color: #666;
 }
+/* Sección Sobre mí */
+#sobre-mi {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#sobre-mi h2 {
+  font-size: 3rem;
+  margin: 0;
+  align-self: flex-start;
+}
+
+#sobre-mi .foto-perfil {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-left: 2rem;
+}
+
+#sobre-mi .contenido {
+  flex: 1;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
