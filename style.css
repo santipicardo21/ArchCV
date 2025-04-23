@@ -346,34 +346,57 @@ footer {
   background-color: #ffffff;
 }
 
-/* Igual que en Educación: título principal */
-#habilidades h2 {
-  font-size: 3rem;
-  margin: 0 0 2rem 0;        /* espacio debajo del h2 */
-  text-align: left;
+/* ————— Sección Habilidades y Certificaciones ————— */
+#habilidades {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;    /* todo pegado a izquierda */
+  padding: 4rem 8rem;         /* mismos márgenes que Educación */
+  max-width: 1000px;
+  margin: auto;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #333;
+  background-color: #fff;
 }
 
-/* Igual que “Estudios” en Educación */
+/* Título principal igual que en Educación */
+#habilidades h2 {
+  font-size: 3rem;
+  margin: 0 0 2rem 0;
+  text-align: left;
+  color: #333;
+}
+
+/* Subtítulos igual que “Estudios” */
 #habilidades h3 {
   font-size: 2rem;
-  margin: 1.5rem 0 1rem 0;    /* espacio arriba y abajo */
+  margin: 2rem 0 1rem 0;
   text-align: left;
   color: #444;
 }
 
-/* Listado alineado a la izquierda */
-#habilidades ul {
-  list-style: disc inside;
-  margin: 0 0 2rem 1.5rem;    /* márgen inferior y sangría */
-  padding: 0;
+/* Lista de ítems */
+.habilidades-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
 }
 
-/* Ítems del listado */
-#habilidades li {
-  margin-bottom: 0.75rem;
+/* Cada ítem con acento morado a la izquierda */
+.habilidad-item p {
+  margin: 0;
   font-size: 1.6rem;
   line-height: 1.6;
+  padding-left: 1rem;
+  border-left: 4px solid #a259ff;
 }
+
+/* Margin-bottom extra al final para separar del footer */
+#habilidades .habilidades-lista:last-of-type {
+  margin-bottom: 3rem;
+}
+
 
 
 }
