@@ -176,6 +176,7 @@ footer {
   align-self: flex-start;  
   text-align: left;   
   margin: 0 0 1.5rem 0;
+  margin-bottom: 2rem;
 }
 
 #Educación h3 {
@@ -186,6 +187,7 @@ footer {
   align-self: flex-start;    
   text-align: left;         
   margin: 0 0 1.5rem 0;
+  
 }
 
 
@@ -193,6 +195,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+   margin-top: 1.5rem;
 }
 
 .item-estudio {
