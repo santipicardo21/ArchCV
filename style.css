@@ -83,8 +83,10 @@ main h2 {
 
 footer {
   text-align: center;
+  text-decoration: none;
+  font-weight: bold;
   padding: 2rem;
-  background-color: #eaeaea;
+  background-color: #ffffff;
   color: #666;
 }
 /* Sección Sobre mí */
@@ -92,14 +94,14 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 3rem;
-  max-width: 1000px;
+  padding: 6rem;
+  max-width: 2000px;
   margin: auto;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 #sobre-mi h2 {
-  font-size: 3rem;
+  font-size: 6rem;
   margin: 0 0 1.5rem 0;
   text-align: left;
   font-family: 'Didact Gothic', sans-serif;
@@ -108,14 +110,14 @@ footer {
 
 #sobre-mi .contenido-texto {
   flex: 1;
-  font-size: 1.1rem;
-  line-height: 1.6;
+  font-size: 2rem;
+  line-height: 2;
   font-family: 'Didact Gothic', sans-serif;
   color: #333;
 }
 
 #sobre-mi .foto-perfil {
-  width: 120px;
+  width: 200px;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
@@ -123,7 +125,9 @@ footer {
 
 #sobre-mi .contenido {
   flex: 1;
-  margin-top: 1.5rem;
-  font-size: 1.1rem;
-  line-height: 1.6;
+  margin-top: 1.8rem;
+  font-size: 2rem;
+  line-height: 2;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #333;
 }
