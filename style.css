@@ -155,6 +155,15 @@ footer {
   font-family: 'Didact Gothic', sans-serif;
   color: #333;
 }
+
+footer {
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 3rem;
+  background-color: #ffffff;
+  color: #666;
+}
 /* Sección Educacion */
 
 #Educación {
@@ -198,9 +207,18 @@ footer {
   margin: 0;
   font-size: 1.6rem;
 }
-.img-estudio {
+#Educación .img-estudio {
   width: 100px;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
+}
+
+footer {
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 3rem;
+  background-color: #ffffff;
+  color: #666;
 }
