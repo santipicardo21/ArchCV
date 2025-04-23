@@ -308,11 +308,11 @@ footer {
     margin-left: 3.5rem;
   }
   /* Posicionar logo pequeño arriba a la derecha */
-header {
+head {
   position: relative;      /* Permite posicionar absolutamente dentro */
 }
 
-.header-logo {
+.head-logo {
   position: absolute;
   top: 1rem;               /* Ajusta espacio desde arriba */
   right: 1rem;             /* Ajusta espacio desde la derecha */
