@@ -387,6 +387,46 @@ footer {
   border-left: 4px solid #a259ff;
 }
 
+.cursos-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+}
+.cursos-lista li {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.curso-year {
+  flex-shrink: 0;
+  font-size: 1.6rem;
+  color: #666;
+  width: 4rem;
+}
+.curso-detalle {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+/* Rating de habilidades */
+.habilidades-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+}
+.habilidades-lista li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.6rem;
+}
+.rating {
+  font-family: monospace;
+  letter-spacing: 0.25rem;
+  color: #333;
+}
+
 
 
 
