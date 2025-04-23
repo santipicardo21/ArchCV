@@ -101,7 +101,7 @@ footer {
 }
 
 #sobre-mi h2 {
-  font-size: 8rem;
+  font-size: 3rem;
   margin: 0 0 1.5rem 0;
   text-align: left;
   font-family: 'Didact Gothic', sans-serif;
@@ -110,8 +110,8 @@ footer {
 
 #sobre-mi .contenido-texto {
   flex: 1;
-  font-size: 1.8rem;
-  line-height: 2.5;
+  font-size: 1.6rem;
+  line-height: 1.8;
   font-family: 'Didact Gothic', sans-serif;
   color: #333;
 }
@@ -177,7 +177,7 @@ footer {
 }
 
 #Educación h2 {
-  font-size: 7rem;
+  font-size: 3rem;
   margin-bottom: 3rem;
   color: #333;
   font-family: 'Didact Gothic', sans-serif;
@@ -188,7 +188,7 @@ footer {
 }
 
 #Educación h3 {
-  font-size: 4rem;
+  font-size: 2rem;
   margin-bottom: 3rem;
   color: #767676;
   font-family: 'Didact Gothic', sans-serif;
@@ -221,7 +221,7 @@ footer {
 
 .item-estudio p {
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 1.6;
 }
 
@@ -269,7 +269,7 @@ footer {
   width: 3rem;
   height: 3rem;
   background-color: #fff;
-  border: 3px solid #a259ff;
+  border: 1.5px solid #a259ff;
   border-radius: 50%;
   overflow: hidden;
   display: flex;
@@ -297,7 +297,7 @@ footer {
 }
 
 .timeline-content h4 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin: 0.2rem 0 0.5rem;
   color: #333;
 }
@@ -357,7 +357,7 @@ footer {
 /* Título principal */
 #habilidades h2 {
   font-size: 3rem;             /* 7rem era demasiado grande para móvil */
-  margin: 0 0 2rem 0;          /* 0 arriba, 2rem abajo */
+  margin: 2rem 0 2rem 1rem;          /* 0 arriba, 2rem abajo */
   text-align: left;
   color: #333;
 }
@@ -365,7 +365,7 @@ footer {
 /* Subtítulos */
 #habilidades h3 {
   font-size: 2rem;
-  margin: 1rem 0 1rem 0;       /* 1rem arriba y abajo */
+  margin: 2rem 0 2rem 1rem;       /* 1rem arriba y abajo */
   text-align: left;
   color: #444;
 }
