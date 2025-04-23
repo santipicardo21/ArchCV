@@ -100,7 +100,11 @@ footer {
 #sobre-mi h2 {
   font-size: 3rem;
   margin: 0;
-  align-self: flex-start;
+  text-align: left;
+}
+
+#sobre-mi .contenido-texto {
+  flex:1;
 }
 
 #sobre-mi .foto-perfil {
