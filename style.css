@@ -367,7 +367,7 @@ footer {
   font-size: 2rem;
   margin: 2rem 0 2rem 1rem;       /* 1rem arriba y abajo */
   text-align: left;
-  color: #444;
+  color: #767676;
 }
 
 /* El listado */
@@ -427,6 +427,16 @@ footer {
   color: #333;
 }
 
+#habilidades .habilidades-lista li {
+  border-left: 4px solid #a259ff;
+  padding-left: 1rem;
+  margin-bottom: 1rem; /* un espacio entre ítems */
+}
+
+/* Asegurarte de que los ratings sigan en color oscuro */
+#habilidades .habilidades-lista li .rating {
+  color: #333;
+}
 
 
 
