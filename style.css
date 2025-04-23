@@ -155,7 +155,7 @@ footer {
   font-family: 'Didact Gothic', sans-serif;
   color: #333;
 }
-footer {
+#sobre-mi .footer {
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -168,7 +168,7 @@ footer {
 
 #Educación {
   display: flex;
-  flex direction: column;
+  flex-direction: column;
   align-items: flex-start;
   padding: 4rem 8rem;
   font-family: 'Didact Gothic', sans-serif;
@@ -183,7 +183,7 @@ footer {
   font-family: 'Didact Gothic', sans-serif;
   align-self: flex-start;  
   text-align: left;   
-  margin: 2 0 1.5rem 3;
+  margin: 2rem 0 1.5rem 3rem;
   
 }
 
@@ -194,10 +194,10 @@ footer {
   font-family: 'Didact Gothic', sans-serif;
   align-self: flex-start;    
   text-align: left;         
-  margin: 1 0 1.5rem 1;
+  margin: 1rem 0 1.5rem 1rem;
 }
 
-footer {
+#educacion .footer {
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -269,7 +269,7 @@ footer {
   width: 3rem;
   height: 3rem;
   background-color: #fff;
-  border: 4px solid #a259ff;
+  border: 3px solid #a259ff;
   border-radius: 50%;
   overflow: hidden;
   display: flex;
@@ -331,11 +331,7 @@ footer {
   background-color: #ffffff;
   color: #666;
 }
-
-
-/* ————— Sección Habilidades y Certificaciones ————— */
-
-
+}
 /* ————— Sección Habilidades y Certificaciones ————— */
 #habilidades {
   display: flex;
@@ -391,4 +387,4 @@ footer {
 
 
 
-}
+
