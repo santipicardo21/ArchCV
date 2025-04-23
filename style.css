@@ -438,6 +438,23 @@ footer {
   color: #333;
 }
 
+/* Logo pequeño en la esquina superior derecha */
+header {
+  position: relative;  /* para poder posicionar el logo dentro */
+}
+
+.header-logo {
+  position: absolute;
+  top: 1rem;           /* espaciado desde la parte superior del header */
+  right: 1rem;         /* espaciado desde la parte derecha */
+  width: 60px;         /* ajusta el tamaño que necesites */
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+
 
 
 
