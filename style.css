@@ -342,4 +342,47 @@ footer {
   border-radius: 4px;      /* Opcional: esquinas redondeadas */
 }
 
+/* ————— Sección Habilidades y Certificaciones ————— */
+#habilidades {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;   /* pega todo al margen izquierdo */
+  padding: 4rem 8rem;
+  max-width: 1000px;
+  margin: auto;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #333;
+  background-color: #ffffff;
+}
+
+/* Igual que en Educación: título principal */
+#habilidades h2 {
+  font-size: 3rem;
+  margin: 0 0 2rem 0;        /* espacio debajo del h2 */
+  text-align: left;
+}
+
+/* Igual que “Estudios” en Educación */
+#habilidades h3 {
+  font-size: 2rem;
+  margin: 1.5rem 0 1rem 0;    /* espacio arriba y abajo */
+  text-align: left;
+  color: #444;
+}
+
+/* Listado alineado a la izquierda */
+#habilidades ul {
+  list-style: disc inside;
+  margin: 0 0 2rem 1.5rem;    /* márgen inferior y sangría */
+  padding: 0;
+}
+
+/* Ítems del listado */
+#habilidades li {
+  margin-bottom: 0.75rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+
 }
