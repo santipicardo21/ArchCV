@@ -159,6 +159,9 @@ footer {
 /* Sección Educacion */
 
 #Educación {
+  display: flex;
+  flex direction: column;
+  align-items: flex-start;
   padding: 4rem 8rem;
   font-family: 'Didact Gothic', sans-serif;
   color: #333;
@@ -166,19 +169,23 @@ footer {
 }
 
 #Educación h2 {
-  font-size: 8rem;
+  font-size: 7rem;
   margin-bottom: 3rem;
   color: #333;
   font-family: 'Didact Gothic', sans-serif;
-  text-align: left;
+  align-self: flex-start;  
+  text-align: left;   
+  margin: 0 0 1.5rem 0;
 }
 
 #Educación h3 {
-  font-size: 5rem;
+  font-size: 4rem;
   margin-bottom: 3rem;
-  color: #444;
+  color: #767676;
   font-family: 'Didact Gothic', sans-serif;
-  text-align: left;
+  align-self: flex-start;    
+  text-align: left;         
+  margin: 0 0 1.5rem 0;
 }
 
 
