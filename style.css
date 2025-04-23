@@ -332,15 +332,6 @@ footer {
   color: #666;
 }
 
-.header-logo {
-  position: absolute;
-  top: 1rem;               /* Ajusta espacio desde arriba */
-  right: 200rem;             /* Ajusta espacio desde la derecha */
-  width: px;             /* O el ancho que necesites */
-  height: auto;
-  object-fit: contain;
-  border-radius: 4px;      /* Opcional: esquinas redondeadas */
-}
 
 /* ————— Sección Habilidades y Certificaciones ————— */
 #habilidades {
