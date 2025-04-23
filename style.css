@@ -89,8 +89,8 @@ footer {
   background-color: #ffffff;
   color: #666;
 }
-/* Sección Educacion */
-#Educación {
+/* Sección Sobre mí */
+#sobre-mi {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -100,7 +100,7 @@ footer {
   gap: 4rem;
 }
 
-#Educación h2 {
+#sobre-mi h2 {
   font-size: 8rem;
   margin: 0 0 1.5rem 0;
   text-align: left;
@@ -108,7 +108,7 @@ footer {
   color: #333;
 }
 
-#Educación .contenido-texto {
+#sobre-mi .contenido-texto {
   flex: 1;
   font-size: 1.8rem;
   line-height: 2.5;
@@ -116,14 +116,14 @@ footer {
   color: #333;
 }
 
-#Educación .foto-perfil {
+#sobre-mi .foto-perfil {
   width: 350px;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
 }
 
-#Educación .contenido {
+#sobre-mi .contenido {
   flex: 1;
   margin-top: 2rem;
   font-size: 1.8rem;
@@ -132,7 +132,7 @@ footer {
   color: #333;
 }
 
-#Educación .contenido-texto {
+#sobre-mi .contenido-texto {
   flex: 1;
   font-size: 1.8rem;
   line-height: 2.5;
@@ -140,18 +140,45 @@ footer {
   color: #333;
 }
 
-#Educación .foto-perfil {
+#sobre-mi .foto-perfil {
   width: 350px;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
 }
 
-#Educación .contenido {
+#sobre-mi .contenido {
   flex: 1;
   margin-top: 2rem;
   font-size: 1.8rem;
   line-height: 2.5;
   font-family: 'Didact Gothic', sans-serif;
   color: #333;
+}
+/* Sección Educacion */
+
+.educacion {
+  padding: 6rem;
+  max-width: 1000px;
+  margin: auto;
+  text-align: left;
+}
+
+.estudios-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.item-estudio {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.img-estudio {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
 }
