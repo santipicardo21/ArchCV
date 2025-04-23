@@ -307,4 +307,19 @@ footer {
   .timeline-content {
     margin-left: 3.5rem;
   }
+  /* Posicionar logo pequeño arriba a la derecha */
+header {
+  position: relative;      /* Permite posicionar absolutamente dentro */
+}
+
+.header-logo {
+  position: absolute;
+  top: 1rem;               /* Ajusta espacio desde arriba */
+  right: 1rem;             /* Ajusta espacio desde la derecha */
+  width: 80px;             /* O el ancho que necesites */
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;      /* Opcional: esquinas redondeadas */
+}
+
 }
