@@ -89,8 +89,8 @@ footer {
   background-color: #ffffff;
   color: #666;
 }
-/* Sección Sobre mí */
-#sobre-mi {
+/* Sección Educacion */
+#Educación {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -100,7 +100,7 @@ footer {
   gap: 4rem;
 }
 
-#sobre-mi h2 {
+#Educación h2 {
   font-size: 8rem;
   margin: 0 0 1.5rem 0;
   text-align: left;
@@ -108,7 +108,7 @@ footer {
   color: #333;
 }
 
-#sobre-mi .contenido-texto {
+#Educación .contenido-texto {
   flex: 1;
   font-size: 1.8rem;
   line-height: 2.5;
@@ -116,14 +116,38 @@ footer {
   color: #333;
 }
 
-#sobre-mi .foto-perfil {
+#Educación .foto-perfil {
   width: 350px;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
 }
 
-#sobre-mi .contenido {
+#Educación .contenido {
+  flex: 1;
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  line-height: 2.5;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #333;
+}
+
+#Educación .contenido-texto {
+  flex: 1;
+  font-size: 1.8rem;
+  line-height: 2.5;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #333;
+}
+
+#Educación .foto-perfil {
+  width: 350px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+#Educación .contenido {
   flex: 1;
   margin-top: 2rem;
   font-size: 1.8rem;
