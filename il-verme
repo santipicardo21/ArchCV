@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Il Verme</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="proyecto">
+    <h2>Il Verme</h2>
+    <p>
+      Centro de Vivienda y Espacio Social para Inmigrantes en Gorizia: este complejo reutiliza los cimientos de antiguas casernas, integrando una escuela en planta baja, cafetería y zonas de ocio. Una rampa conecta los diferentes pisos como espacio social compartido, y se incorpora una plaza con gradas que facilitan la conexión con la residencia de estudiantes frente, que cuenta con biblioteca, supermercado y salas comunes. :contentReference[oaicite:2]{index=2}
+    </p>
+    <div class="project-gallery">
+      <img src="imagenes/il_verme_fachada_sur.jpg" alt="Fotomontaje fachada sur">
+      <img src="imagenes/il_verme_planta_primer.jpg" alt="Planta primera">
+      <img src="imagenes/il_verme_seccion.jpg" alt="Secciones fugadas del conjunto">
+    </div>
+  </main>
+  <footer>
+    <p><a href="proyectos.html">← Volver a Proyectos</a></p>
+  </footer>
+</body>
+</html>

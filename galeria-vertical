@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería Vertical</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="proyecto">
+    <h2>Galería Vertical</h2>
+    <p>
+      Torre Galería en Argamasilla de Alba: este proyecto combina la agricultura y el arte en una torre de diez plantas donde los artistas experimentan con pigmentos de uva para crear obras, conectando con la tradición vitivinícola local. Las primeras plantas se destinan a la recolección y almacenamiento, mientras que las superiores albergan viviendas, talleres y espacios de ocio, con zonas comunes en la sexta planta. La estructura metálica, con vigas de acero y forjados unidireccionales, permite espacios flexibles optimizados mediante mobiliario móvil y plegable. El diseño busca minimizar la ocupación del terreno para no interferir con los viñedos, maximizando eficiencia y adaptabilidad. :contentReference[oaicite:0]{index=0}
+    </p>
+    <div class="project-gallery">
+      <img src="imagenes/galeria_vertical_axonometria.jpg" alt="Axonometría conjunto">
+      <img src="imagenes/galeria_vertical_planta_baja.jpg" alt="Planta baja - accesos">
+      <img src="imagenes/galeria_vertical_planta_viviendas.jpg" alt="Planta viviendas tipo">
+    </div>
+  </main>
+  <footer>
+    <p><a href="proyectos.html">← Volver a Proyectos</a></p>
+  </footer>
+</body>
+</html>

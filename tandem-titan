@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tándem Titán</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="proyecto">
+    <h2>Tándem Titán</h2>
+    <p>
+      Transformación de las Torres Titán 6 y 8, Madrid: propuesta para generar un entorno colaborativo mediante un volumen central que conecta ambas torres, funcionando como núcleo comunitario con cafetería, comedor y salas polivalentes. Se renueva la envolvente mejorando eficiencia energética y confort interior: ventanas de suelo a techo con voladizos reguladores de radiación, lamas verticales para ventilación y cerramientos de vidrio en planta baja, integrando el conjunto con el Parque Tierno Galván. :contentReference[oaicite:1]{index=1}
+    </p>
+    <div class="project-gallery">
+      <img src="imagenes/tandem_titan_axonometria.jpg" alt="Axonometría suroeste">
+      <img src="imagenes/tandem_titan_planta_primer.jpg" alt="Plano planta primera">
+      <img src="imagenes/tandem_titan_planta_segunda.jpg" alt="Plano planta segunda">
+    </div>
+  </main>
+  <footer>
+    <p><a href="proyectos.html">← Volver a Proyectos</a></p>
+  </footer>
+</body>
+</html>
