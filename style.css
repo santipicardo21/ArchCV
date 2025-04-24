@@ -569,6 +569,62 @@ img {
   }
 }
 
+/* ————— Galería Vertical (Proyecto 01) ————— */
+#galeria-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4rem 8rem;
+  max-width: 1000px;
+  margin: auto;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+#galeria-vertical h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+/* Contenedor collage */
+.collage-container {
+  position: relative;
+  width: 100%;
+  padding-top: 75%; /* proporcional height */
+  margin-bottom: 3rem;
+}
+
+/* Fotos en posición libre */
+.collage-img {
+  position: absolute;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
+/* Ajusta estas posiciones/tamaños según tus imágenes */
+.img1 { top: 0;    left: 0;    width: 58%;  height: 40%; }
+.img2 { top: 5%;   right: 0;   width: 38%;  height: 30%; }
+.img3 { bottom: 0; left: 5%;   width: 48%;  height: 45%; }
+.img4 { bottom: 5%; right: 10%; width: 30%;  height: 35%; }
+
+/* Texto centrado sobre el collage */
+.collage-text {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255,255,255,0.85);
+  border-left: 4px solid #a259ff;
+  padding: 2rem;
+  max-width: 45%;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #333;
+}
 
 
 
