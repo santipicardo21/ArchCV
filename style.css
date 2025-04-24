@@ -509,6 +509,25 @@ footer {
   line-height: 1.4;
 }
 
+/* — Imágenes fluidas — */
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* — Galería flexible — */
+.project-gallery {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+}
+
+/* Scrollbar ligero */
+.project-gallery::-webkit-scrollbar {
+  height: 8px;
+}
+
 /* MOVIL: hasta 600px */
 @media (max-width: 600px) {
   /* Timeline: reduce espacios */
