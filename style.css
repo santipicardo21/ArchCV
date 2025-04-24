@@ -443,8 +443,9 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 4rem 8rem;
+  padding: 2rem 1rem;
   max-width: 2000px;
+  width: 100%;
   margin: auto;
   font-family: 'Didact Gothic', sans-serif;
   color: #333;
@@ -460,8 +461,8 @@ footer {
 /* — Projects grid simplificado — */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
   width: 100%;
 }
 
@@ -504,7 +505,46 @@ footer {
   line-height: 1.4;
 }
 
+/* MOVIL: hasta 600px */
+@media (max-width: 600px) {
+  /* Timeline: reduce espacios */
+  .timeline {
+    padding-left: 1rem;
+  }
+  .timeline-icon {
+    width: 2rem;
+    height: 2rem;
+    left: -0.7rem;
+  }
+  /* Proyectos: tarjeta full-width */
+  .project-card {
+    padding: 1.5rem;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 
+  /* Habilidades & Educación: reduce padding lateral */
+  #habilidades,
+  #Educación {
+    padding: 2rem 1rem;
+  }
+}
+
+/* TABLET: entre 601px y 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #habilidades h2,
+  #Educación h2 {
+    font-size: 2.5rem;
+  }
+  #habilidades h3,
+  #Educación h3 {
+    font-size: 1.8rem;
+  }
+}
 
 
 
