@@ -588,62 +588,53 @@ img {
   text-align: left;
 }
 
-/* Contenedor collage */
-.collage-container {
+/* ————— Galería Vertical: Reposicionamiento definitivo ————— */
+#galeria-vertical .collage-container {
   position: relative;
   width: 100%;
-  padding-top: 75%; /* proporcional height */
+  padding-top: 75%;
   margin-bottom: 3rem;
 }
 
-/* Fotos en posición libre */
-.collage-img {
+#galeria-vertical .collage-container .collage-img {
   position: absolute;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   object-fit: cover;
-}
-
-/* Ajusta estas posiciones/tamaños según tus imágenes */
-.img1 {
-  top: 0;
-  left: 0;
-  width: 40%;
-  height: 45%;
-}
-
-.img2 {
-  top: 0;
-  right: 0;
-  width: 40%;
-  height: 45%;
-}
-
-.img3 {
-  bottom: 0;
-  left: 0;
-  width: 40%;
-  height: 45%;
-}
-
-.img4 {
-  bottom: 0;
-  right: 0;
-  width: 40%;
-  height: 45%;
-}
-
-/* Asegura que el texto esté encima y centrado */
-.collage-img {
   z-index: 0;
 }
 
-.collage-text {
-  z-index: 1;
+/* Esquinas: 40% de ancho para cada imagen, dejando el centro libre */
+#galeria-vertical .collage-img.img1 {
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 45%;
 }
 
-/* Texto centrado sobre el collage */
-.collage-text {
+#galeria-vertical .collage-img.img2 {
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 45%;
+}
+
+#galeria-vertical .collage-img.img3 {
+  bottom: 0;
+  left: 0;
+  width: 40%;
+  height: 45%;
+}
+
+#galeria-vertical .collage-img.img4 {
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  height: 45%;
+}
+
+/* Texto siempre visible, centrado por encima */
+#galeria-vertical .collage-text {
   position: absolute;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
@@ -656,8 +647,8 @@ img {
   text-align: center;
   font-family: 'Didact Gothic', sans-serif;
   color: #333;
+  z-index: 1;
 }
-
 
 
 
