@@ -605,10 +605,42 @@ img {
 }
 
 /* Ajusta estas posiciones/tamaños según tus imágenes */
-.img1 { top: 0;    left: 0;    width: 58%;  height: 40%; }
-.img2 { top: 5%;   right: 0;   width: 38%;  height: 30%; }
-.img3 { bottom: 0; left: 5%;   width: 48%;  height: 45%; }
-.img4 { bottom: 5%; right: 10%; width: 30%;  height: 35%; }
+.img1 {
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 45%;
+}
+
+.img2 {
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 45%;
+}
+
+.img3 {
+  bottom: 0;
+  left: 0;
+  width: 40%;
+  height: 45%;
+}
+
+.img4 {
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  height: 45%;
+}
+
+/* Asegura que el texto esté encima y centrado */
+.collage-img {
+  z-index: 0;
+}
+
+.collage-text {
+  z-index: 1;
+}
 
 /* Texto centrado sobre el collage */
 .collage-text {
