@@ -104,7 +104,7 @@ footer {
   font-size: 3rem;
   margin: 0 0 1.5rem 0;
   text-align: left;
-  font-family: 'Didact Gothic', sans-serif;
+ font-family: 'Futura Light', sans-serif;
   color: #333;
 }
 
@@ -180,7 +180,7 @@ footer {
   font-size: 3rem;
   margin-bottom: 3rem;
   color: #333;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Futura Light', sans-serif;
   align-self: flex-start;  
   text-align: left;   
   margin: 2rem 0 1.5rem 3rem;
@@ -191,7 +191,7 @@ footer {
   font-size: 2rem;
   margin-bottom: 3rem;
   color: #767676;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Futura Light', sans-serif;
   align-self: flex-start;    
   text-align: left;         
   margin: 1rem 0 1.5rem 1rem;
@@ -360,6 +360,7 @@ footer {
   margin: 2rem 0 2rem 1rem;          /* 0 arriba, 2rem abajo */
   text-align: left;
   color: #333;
+  font-family: 'Futura Light', sans-serif;
 }
 
 /* Subtítulos */
@@ -368,6 +369,7 @@ footer {
   margin: 2rem 0 2rem 1rem;       /* 1rem arriba y abajo */
   text-align: left;
   color: #767676;
+  font-family: 'Futura Light', sans-serif;
 }
 
 /* El listado */
@@ -485,7 +487,7 @@ footer {
 .card-number {
   font-size: 6rem;
   color: #a259ff;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Futura Light', sans-serif;
   margin-bottom: 1.5rem;
   font-weight: lighter;
 }
@@ -493,7 +495,7 @@ footer {
 .card-title {
   font-size: 2rem;
   color: #333;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Futura Light', sans-serif;
   
 }
 
