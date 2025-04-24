@@ -480,7 +480,7 @@ footer {
 }
 
 .card-number {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: #a259ff;
   font-family: 'Didact Gothic', sans-serif;
   margin-bottom: 0.5rem;
@@ -488,16 +488,16 @@ footer {
 }
 
 .card-title {
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: #333;
   font-family: 'Didact Gothic', sans-serif;
-  font-weight: bold;
+  
 }
 
 /* Subtítulo dentro de cada tarjeta */
-.project-card .card-subtitle {
+.card-subtitle {
   font-size: 1.2rem;                      /* un poco más pequeño que el título */
-  color: #5c5c5c;                         /* tono gris suave */
+  color: #464646;                         /* tono gris suave */
   font-family: 'Didact Gothic', sans-serif;
   margin-top: 0.25rem;                    /* pequeño espacio bajo el título */
   text-align: left;
