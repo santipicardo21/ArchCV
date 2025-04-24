@@ -441,7 +441,7 @@ footer {
 /* Logo pequeño en la esquina superior derecha */
 header {
   position: relative;  /* para poder posicionar el logo dentro */
-}
+
 
 .header-logo {
   position: absolute;
@@ -452,6 +452,8 @@ header {
   object-fit: contain;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   border-radius: 4px;
+  background-color: #fff;
+}
 }
 
 
