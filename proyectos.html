@@ -3,29 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proyectos - Portfolio</title>
+  <title>Proyectos Destacados</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Proyectos Destacados</h1>
-  </header>
-  <main>
-    <section>
-      <article>
-        <h2>Proyecto 1</h2>
-        <p>Descripción breve del proyecto, ubicación, tipo de intervención, año y tus responsabilidades.</p>
-      </article>
-      <article>
-        <h2>Proyecto 2</h2>
-        <p>Descripción breve del proyecto, ubicación, tipo de intervención, año y tus responsabilidades.</p>
-      </article>
-      <article>
-        <h2>Proyecto 3</h2>
-        <p>Descripción breve del proyecto, ubicación, tipo de intervención, año y tus responsabilidades.</p>
-      </article>
-    </section>
+  <main id="proyectos">
+    <h2>Proyectos Destacados</h2>
+
+    <div class="projects-grid">
+      <!-- Tarjeta Proyecto 1 -->
+      <div class="project-card">
+        <div class="card-image">
+          <img src="imagenes/galeria_vertical_axonometria.jpg" alt="Galería Vertical">
+          <div class="overlay">
+            <h3>Galería Vertical</h3>
+          </div>
+        </div>
+        <div class="card-content">
+          <p>
+            Torre Galería en Argamasilla de Alba: este proyecto combina la agricultura y el arte
+            en una torre de diez plantas donde los artistas experimentan con pigmentos de uva para
+            crear obras, conectando con la tradición vitivinícola local. :contentReference[oaicite:0]{index=0}
+          </p>
+        </div>
+      </div>
+
+      <!-- Tarjeta Proyecto 2 -->
+      <div class="project-card">
+        <div class="card-image">
+          <img src="imagenes/tandem_titan_axonometria.jpg" alt="Tándem Titán">
+          <div class="overlay">
+            <h3>Tándem Titán</h3>
+          </div>
+        </div>
+        <div class="card-content">
+          <p>
+            Transformación de las torres Titán 6 y 8 (Madrid): con un volumen central que conecta ambas
+            torres en un núcleo comunitario (cafetería, salas polivalentes), refuerza la interacción social
+            y mejora eficiencia energética con ventanas suelo-techo y voladizos. :contentReference[oaicite:1]{index=1}
+          </p>
+        </div>
+      </div>
+
+      <!-- Tarjeta Proyecto 3 -->
+      <div class="project-card">
+        <div class="card-image">
+          <img src="imagenes/il_verme_fachada_sur.jpg" alt="Il Verme">
+          <div class="overlay">
+            <h3>Il Verme</h3>
+          </div>
+        </div>
+        <div class="card-content">
+          <p>
+            Centro de Vivienda y Espacio Social para Inmigrantes en Gorizia: reutiliza cimientos de
+            antiguas casernas, integra escuela, cafetería y rampa social compartida, y conecta con
+            espacios comunes (biblioteca, supermercado). :contentReference[oaicite:2]{index=2}
+          </p>
+        </div>
+      </div>
+    </div>
   </main>
+
   <footer>
     <p><a href="index.html">Volver al inicio</a></p>
   </footer>
