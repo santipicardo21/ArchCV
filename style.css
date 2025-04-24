@@ -456,6 +456,7 @@ footer {
   font-size: 3rem;
   margin: 3rem 0 2rem 1.5rem;
   text-align: left;
+  font-family: 'Futura Light', sans-serif;
 }
 
 /* — Projects grid simplificado — */
@@ -464,6 +465,7 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
   width: 100%;
+  
 }
 
 .project-card {
