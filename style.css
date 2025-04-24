@@ -126,16 +126,16 @@ footer {
 #sobre-mi .contenido {
   flex: 1;
   margin-top: 2rem;
-  font-size: 1.8rem;
-  line-height: 2.5;
+  font-size: 1.6rem;
+  line-height: 2;
   font-family: 'Didact Gothic', sans-serif;
   color: #333;
 }
 
 #sobre-mi .contenido-texto {
   flex: 1;
-  font-size: 1.8rem;
-  line-height: 2.5;
+  font-size: 1.6rem;
+  line-height: 2;
   font-family: 'Didact Gothic', sans-serif;
   color: #333;
 }
@@ -150,8 +150,8 @@ footer {
 #sobre-mi .contenido {
   flex: 1;
   margin-top: 2rem;
-  font-size: 1.8rem;
-  line-height: 2.5;
+  font-size: 1.6rem;
+  line-height: 2;
   font-family: 'Didact Gothic', sans-serif;
   color: #333;
 }
